@@ -1,0 +1,15 @@
+.btn--secondary{
+    background-color: transparent;
+    border: .2rem solid rgba(29, 42, 44, .7);
+    padding: 1rem 2rem;
+    font-size: 1.6rem;
+    border-radius: .7rem;
+    cursor: pointer;
+    transition: background-color linear .1s, color linear .1s;
+
+    &:hover{
+        background-color: rgba(29, 42, 44, 1);
+        color: #fff;
+    }
+
+}
